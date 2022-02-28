@@ -36,8 +36,8 @@ INSERT INTO orders (product, cost, customerId) VALUES ('Paper Ream', '100', 3);
 INSERT INTO orders (product, cost, customerId) VALUES ('whoopee cushion', '5', 2);
 
 
-SELECT * from customers;
-SELECT * from orders;
+SELECT * FROM customers;
+SELECT * FROM orders;
 SELECT * FROM products;
 
 INSERT INTO products (customers_id, orders_id) VALUES (1, 1);
